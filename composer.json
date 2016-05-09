@@ -1,5 +1,5 @@
 {
-    "name": "blumanski/bang_accounts",
+    "name": "blumanski/bang_backend_accounts",
     "description": "Account module for Bang Framework - Backend",
     "type": "library",
     "license": "MIT",
