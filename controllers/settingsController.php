@@ -74,7 +74,8 @@ class settingsController extends \Bang\SuperController implements \Bang\Controll
 
     	// Add module language files to language array
     	$this->View->Lang->addLanguageFile($this->path.'/lang/'.$currentLang);
-    	$this->View->addStyle($this->View->TemplatePath.'min/css/account/assets/scss/account.min.css', 0);
+    	$this->View->addStyle($this->View->TemplatePath.'min/css/account.min.css', 0);
+    	$this->View->addScript($this->View->TemplatePath.'min/js/account.js', 0);
 
     	// every action function in this class needs a permission check
     	// in this case, I can add it to the constructor

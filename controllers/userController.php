@@ -84,7 +84,8 @@ class userController extends \Bang\SuperController implements \Bang\ControllerIn
     	
     	// Add module language files to language array
     	$this->View->Lang->addLanguageFile($this->path.'/lang/'.$currentLang);
-    	$this->View->addStyle($this->View->TemplatePath.'min/css/account/assets/scss/account.min.css', 0);
+    	$this->View->addStyle($this->View->TemplatePath.'min/css/account.min.css', 0);
+    	$this->View->addScript($this->View->TemplatePath.'min/js/account.js', 0);
 
     	$this->Data	= new Db($di);
     	$this->Mail	= new Mail($di);
