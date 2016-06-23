@@ -255,7 +255,7 @@ class indexController extends \Bang\SuperController implements \Bang\ControllerI
     /**
      * User login
      * 1. Test post paramaters
-     * 2. If so, call data model and try to login in
+     * 2. If so, call data model and try to login
      * 3. If true, redirect to a page such as dashboard or /
      * 4. Show login template if it wasn't redirected
      *
